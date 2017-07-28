@@ -1,0 +1,50 @@
+query("*")
+start_test_server_in_background
+start_test_server_in_background
+touch("*:'content'")
+exit
+touch("*:'content'")
+start_test_server_in_background
+touch("*:'content'")
+array[].size
+array[]
+nome = Array[]
+puts nome.size
+rand(1..100)
+puts nome.size
+nome = Array[1]
+puts nome.length
+nome = Array[]
+puts nome.length
+
+rand(1..100)
+touch("*:'content'")
+start_test_server_in_background
+exit
+touch("*:'content'")
+start_test_server_in_background
+touch("*:'content'")
+@resposta=touch("*:'content'")
+
+lista=[]
+@resposta.each do |item|
+lista << item['index']
+end
+puts @resposta
+start_test_server_in_background
+@resposta=touch("*:'content'")
+count
+@resposta=touch("*:'content'").count
+exit
+exit
+start_test_server_in_background
+@nomes = query("* id:'repo_detail_username'")
+@nomes = query("* id:'repo_detail_username'") puts text
+@nomes = query("* id:'repo_detail_username'") puts text end
+@nomes = query("* id:'repo_detail_username'") puts @nomes
+@nomes = query("* id:'repo_detail_username'").text
+@nomes = query("* id:'repo_detail_username'")
+exit
+exit
+exit
+exit

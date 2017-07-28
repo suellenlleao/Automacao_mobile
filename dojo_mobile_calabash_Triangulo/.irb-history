@@ -1,0 +1,36 @@
+reinstall_apps
+start_test_server_in_background
+query"*"
+query("*",:id)
+query"*"
+query"*"
+query("*",:id)
+flash Touch("labelLado1")
+flash Touch("* id:'labelLado1'")
+flash Touch("labelLado1")
+flash touch("labelLado1")
+flash ("*id:'labelLado1'")
+touch ("*id:'labelLado1'")
+query"*"
+query("*",:id)
+query("*id:'labelLado1'", setText:"#{1}")
+query("*id:'labelLado1'", setText:"#[1]")
+touch ("*id:'labelLado1'")
+flash ("*id:'labelLado1'")
+keyboard_enter_text("labelLado1")
+query"*"
+query("* id:'btnCalcular'")
+exit
+exit
+exit
+exit
+reinstall_apps
+reinstall_apps
+A
+exit
+reinstall_apps
+start_test_server_in_background
+page(Geral).validar_elemento('More options')
+query("*")
+touch("* contentDescription:'More options'")
+exit

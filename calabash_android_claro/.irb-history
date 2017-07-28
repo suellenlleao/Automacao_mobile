@@ -1,0 +1,50 @@
+reinstall apps
+reinstall_apps
+start_test_server_in_background
+exit
+query("*", :class'ImageButton')
+query("*, :class'ImageButton'")
+exit
+query("*, :id")
+query("*, :'id'")
+query("*", :id)
+query("*")
+query("*")
+exit
+start_test_server_in_background
+exit
+exit
+query("*", :id)
+start_test_server_in_background
+query("*", :id)
+exit
+exit
+start_test_server_in_background
+exit
+query("*", :id)
+start_test_server_in_background
+query("*", :id)
+query("*", :text)
+exit
+start_test_server_in_background
+query("*", :id)
+exit
+start_test_server_in_background
+query("*", :id)
+
+start_test_server_in_background
+exit
+exit
+query("* id:'menu_item'", :text).first
+start_test_server_in_background
+query("* id:'menu_item'", :text).first
+expect(page(Homeclaro).pegar_nome_usuario).to include(@nome)
+@nome = "Graciela"
+query("* id:'menu_item'", :text).first
+expect(page(Homeclaro).pegar_nome_usuario).to include(@nome)
+
+query("* id:'menu_item'", :text).first
+expect(query("* id:'menu_item'", :text)).to include(nome)
+query("* id:'menu_item'", :text)
+exit
+exit
